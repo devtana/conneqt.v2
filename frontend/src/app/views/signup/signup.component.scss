@@ -1,0 +1,41 @@
+.box-signup {
+    text-align: center;
+    background: #ebebeb;
+    padding: 200px 0 200px 0;
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 3;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    button {
+        margin-top: 16px;
+        padding: 8px;
+        border: 1px solid #ebebeb;
+        background-color: #F94d46;
+        color:#fff;
+        border-radius: 16px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 639px) {
+        
+        h1 {
+            font-size: 24px;
+        }
+    
+        h3 {
+            font-size: 16px;
+            line-height: 3;
+        }
+    }
+}

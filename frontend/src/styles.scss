@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red {
+    color: rgb(227,94,107);
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mtd-margin-t-4{margin-top: 4px;}
+.mtd-margin-t-8{margin-top: 8px;}
+.mtd-margin-t-16{margin-top: 16px;}
+.mtd-margin-t-32{margin-top: 32px;}
+
+.mtd-margin-b-4{margin-bottom: 4px;}
+.mtd-margin-b-8{margin-bottom: 8px;}
+.mtd-margin-b-16{margin-bottom: 16px;}
+.mtd-margin-b-32{margin-bottom: 32px;}

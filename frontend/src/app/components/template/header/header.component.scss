@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .logo {
+        max-height: 48px;
+        padding: 16px 32px;
+        cursor: pointer;
+    }
+
+    .box-button {
+        padding: 8px 32px;
+
+        .login {
+            margin: 16px;
+            padding: 8px;
+            border: 1px solid #ebebeb;
+            background-color: #FFF;
+            color:#F94D46;
+            border-radius: 16px;
+            font-size: 10px;
+        }
+
+        button {
+            margin: 16px;
+            padding: 8px;
+            border: 1px solid #ebebeb;
+            background-color: #F94D46;
+            color:#fff;
+            border-radius: 16px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 639px) {
+        justify-content: center;
+
+        .box-button{
+            display: none;
+        }
+    }
+
+}

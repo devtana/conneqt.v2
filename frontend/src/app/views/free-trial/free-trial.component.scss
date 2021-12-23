@@ -1,0 +1,59 @@
+.box-free-trial {
+    text-align: center;
+    background: #ebebeb;
+    padding: 48px 0 48px 0;
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 3;
+    }
+
+    .box-form {
+        width: 300px; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
+        margin-bottom: 16px;
+
+        input {
+            padding: 16px;
+            background: #ebebeb;
+            margin-top: 8px;
+            width: 240px;
+            border: 1px solid #dfdfdf;
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 11px;
+        }
+    }
+
+    button {
+        margin-top: 16px;
+        padding: 8px;
+        border: 1px solid #ebebeb;
+        background-color: #F94d46;
+        color:#fff;
+        border-radius: 16px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 639px) {
+        
+        h1 {
+            font-size: 24px;
+        }
+    
+        h3 {
+            font-size: 16px;
+            line-height: 3;
+        }
+    }
+}
+
